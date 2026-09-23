@@ -2,95 +2,126 @@
 
 ## Senior Full-Stack & AI Engineer
 
-I build web, mobile, SaaS, backend, and AI-powered products across architecture, implementation, API integration, data workflows, authentication, and deployment-focused delivery.
+I design and build **web, mobile, SaaS, backend, and AI-powered products**—from product workflows and interfaces to APIs, data, authentication, and integrations.
 
-My current positioning combines:
+I am strongest where product engineering meets practical delivery:
 
-- Full-stack product engineering
-- Backend and API engineering
-- AI/LLM application integration
-- React Native and Expo mobile development
-- SaaS and product engineering
-- Database and application architecture
-- Security-conscious application architecture
+- **Full-stack product engineering**
+- **Backend and API development** with Python/FastAPI and REST services
+- **AI/LLM application integration**
+- **React Native and Expo mobile applications**
+- **TypeScript application architecture**
+- **PostgreSQL, Supabase, authentication, and permissions**
+- **Security-conscious, maintainable product development**
 
-I am interested in senior full-stack, backend and AI, React Native/mobile, SaaS, API, and product-engineering opportunities with remote, freelance, contract, and international teams.
+I am open to **senior engineering, backend/AI, React Native/mobile, SaaS, API, and product-engineering opportunities** with remote, freelance, contract, and international teams.
 
-> This profile intentionally prioritizes evidence-backed project work. Production status, employment outcomes, project metrics, and skill levels are not claimed here unless they are independently verified.
+[Email me](mailto:abrishwon9@gmail.com) · [Connect on LinkedIn](https://www.linkedin.com/in/abrishwon) · [View my repositories](https://github.com/abrehamshiferaw?tab=repositories)
 
-## Featured Projects
+---
+
+## What I Bring to a Product Team
+
+| Strength | How it shows up in my work |
+|---|---|
+| **End-to-end ownership** | Connect user workflows, interfaces, APIs, data, authentication, and external services into coherent product systems. |
+| **Mobile product engineering** | Build React Native/Expo applications with TypeScript, reusable flows, secure storage, device capabilities, and backend integrations. |
+| **Backend and AI delivery** | Develop Python/FastAPI services, API modules, data models, permissions, and practical AI/LLM-enabled features. |
+| **Security-aware architecture** | Treat authentication, authorization, RLS, device controls, privacy boundaries, and maintainability as product requirements. |
+| **Product-minded execution** | Make implementation status clear, separate completed work from planned work, and optimize for useful software rather than buzzwords. |
+
+## Selected Work
 
 ### [GenixAI](https://github.com/abrehamshiferaw/genixai)
 
-AI-enabled creator product with an Expo/React Native client, TypeScript workflows, Python backend modules, media and job-oriented services, authentication, and YouTube-related integrations. The repository also contains web export and deployment configuration. Production status and impact metrics require verification.
+**AI-enabled creator product · Expo/React Native · TypeScript · Python**
 
-**Evidence-backed focus:** React Native, Expo, TypeScript, Python, backend/API services, creator workflows, media services, YouTube integrations, Firebase configuration.
+A creator-focused product with an Expo/React Native client, TypeScript workflows, Python backend modules, authentication, media and job-oriented services, subtitle-related modules, and YouTube-oriented integrations.
+
+**Relevant to:** AI product engineering, mobile applications, backend/API systems, content workflows, and third-party integrations.
 
 ### [Attendo](https://github.com/abrehamshiferaw/attendo)
 
-Corporate attendance and security platform with Expo/React Native application workflows, TypeScript, Supabase/PostgreSQL-oriented data services, authentication, device and location controls, verification services, database migrations, and security policies.
+**Corporate attendance and security platform · React Native · Expo · Supabase/PostgreSQL**
 
-**Evidence-backed focus:** React Native, Expo, TypeScript, Supabase, PostgreSQL, RLS/security policies, authentication, device registration, location controls, face-verification and biometric workflow modules.
+A mobile product with attendance, employee/company administration, device and location controls, authentication, verification-oriented modules, database migrations, Supabase services, and security-policy work.
+
+**Relevant to:** secure mobile systems, PostgreSQL/Supabase, authentication, RLS, device workflows, location controls, and verification features.
 
 ### [Algoraz workspace](https://github.com/abrehamshiferaw/algoraz-workspace)
 
-A related AI/surveillance-oriented workspace containing a React Native/Expo client, Python backend services, API and permissions modules, PostgreSQL-oriented models, Redis, WebRTC, and edge-device/AI processing structure. Product name, role, production status, and outcomes require verification.
+**AI/surveillance-oriented workspace · Python/FastAPI · React Native/Expo · Redis**
 
-**Evidence-backed focus:** React Native, Expo, Python, FastAPI, PostgreSQL, Redis, authentication, permissions, WebRTC, computer-vision and edge-processing modules.
+A multi-area engineering workspace containing a React Native/Expo client, Python backend services, API and permissions modules, PostgreSQL-oriented models, Redis, WebRTC, and edge-device/AI processing structure.
+
+**Relevant to:** backend architecture, computer-vision workflows, permissions, real-time product systems, and edge/AI engineering.
 
 ### [LinkorAI](https://github.com/abrehamshiferaw/linkorai)
 
-Laravel/PHP product-platform work with modular routes and components, API/auth configuration, branding assets, SEO metadata, queue/cache/websocket configuration, and AI/image-provider configuration. This is presented as a separate related repository, not automatically merged with Hirevo or the surveillance workspace.
+**Laravel/PHP product platform · API/auth · SEO · AI/image integrations**
 
-**Evidence-backed focus:** Laravel, PHP, Composer, API routes, authentication, modular web architecture, branding, SEO, queues, cache, websockets, AI/image configuration.
+A separate web-platform repository with modular Laravel/PHP architecture, API and authentication configuration, branding assets, SEO metadata, queue/cache/websocket configuration, and AI/image-provider configuration.
+
+**Relevant to:** web product engineering, Laravel/PHP, modular architecture, API systems, SEO, and AI-enabled platform features.
 
 ### [EnatGPT](https://github.com/abrehamshiferaw/enatgpt)
 
-Flutter/Dart AI assistant project with chat-oriented screens and service references, image-search and text-to-speech flows, and Android/iOS project configuration. Release status, role, and impact metrics require verification.
+**Flutter/Dart AI assistant · Chat · Image search · Text-to-speech**
 
-**Evidence-backed focus:** Flutter, Dart, AI API integration references, image search, text-to-speech, mobile application development.
+A Flutter/Dart mobile AI assistant project with chat-oriented screens and service references, image-search and text-to-speech flows, and Android/iOS project configuration.
 
-## Technology Focus
+**Relevant to:** AI-enabled mobile applications, Flutter/Dart, API integration, speech experiences, and user-focused assistant workflows.
 
-### Application and mobile
+> Project descriptions above reflect inspected repository evidence. Release status, production deployment, role details, and business metrics are intentionally not assumed where they were not independently verified.
 
-React Native · Expo · TypeScript · JavaScript · Flutter · Dart
+---
 
-### Backend and data
+## Technical Focus
 
-Python · FastAPI · REST APIs · PostgreSQL · SQL · Supabase · SQLAlchemy-oriented data modeling · Redis
+**Languages & application:** TypeScript · JavaScript · Python · Dart · PHP
 
-### AI and product integration
+**Frontend & mobile:** React Native · Expo · Flutter · React · mobile product architecture
 
-AI/ML application integration · LLM feature integration · computer-vision workflows · YouTube-oriented integrations · Firebase-connected application workflows
+**Backend & data:** FastAPI · REST APIs · PostgreSQL · SQL · Supabase · SQLAlchemy-oriented data modeling · Redis · Laravel
 
-### Architecture and delivery
+**AI & integrations:** AI/ML application integration · LLM feature integration · computer-vision workflows · YouTube-oriented services · Firebase-connected application workflows · external API integration
 
-Authentication · authorization · permissions · application security · secure storage · API integration · Docker-oriented development · web export and deployment configuration
-
-> Technology level and current breadth should be confirmed against the canonical evidence matrix before being copied into a profile form.
+**Engineering foundations:** Authentication · authorization · permissions · RLS · secure storage · device workflows · Docker-oriented development · testing · maintainable architecture
 
 ## How I Work
 
-I focus on product engineering that connects user workflows, mobile or web interfaces, backend services, data, authentication, and external APIs. I prefer readable architecture, explicit security boundaries, maintainable integrations, and delivery practices that keep implementation status clear.
+I start with the user and system boundaries, then turn them into clear product flows, data contracts, API modules, and maintainable implementation. I value:
 
-## Contact and Collaboration
+- Simple architecture that can evolve without unnecessary complexity
+- Explicit authentication, authorization, and data-access boundaries
+- Reusable mobile and backend patterns
+- Practical AI features tied to a real product workflow
+- Clear separation between implemented, planned, and unverified work
+- Communication that helps teams make decisions and ship confidently
 
-I am open to discussing senior full-stack, backend/API, AI application, React Native/mobile, SaaS, and product-engineering work.
+## Open to Collaboration
 
-- Email: [abrishwon9@gmail.com](mailto:abrishwon9@gmail.com)
-- LinkedIn: [linkedin.com/in/abrishwon](https://www.linkedin.com/in/abrishwon)
-- Portfolio: [algoraz.com](https://algoraz.com) `[VERIFY CURRENT AVAILABILITY]`
-- Canonical profile and Afriwork copy: [docs/profile.md](docs/profile.md)
+I would be glad to discuss:
 
-## Repository Access Note
+- Senior full-stack engineering
+- Backend and AI engineering
+- React Native/Expo mobile development
+- SaaS and API product development
+- AI/LLM feature integration
+- Architecture, modernization, and product delivery
 
-Some project repositories may be private or have restricted visibility. Confirm repository access and current project links before sharing them with recruiters or clients. This profile does not claim that every linked project is publicly accessible, deployed, or in production.
+**Best contact:** [abrishwon9@gmail.com](mailto:abrishwon9@gmail.com)
+**LinkedIn:** [linkedin.com/in/abrishwon](https://www.linkedin.com/in/abrishwon)
+**GitHub:** [github.com/abrehamshiferaw](https://github.com/abrehamshiferaw)
 
-## Profile Source of Truth
+## For Recruiters and Hiring Teams
 
-The complete evidence ledger, Afriwork-ready copy, CV-specific project ordering, verification requirements, GitHub strategy, and final consistency audit are maintained in [docs/profile.md](docs/profile.md).
+The fastest way to evaluate my work is to start with **GenixAI** for full-stack/AI product engineering, **Attendo** for secure mobile and data workflows, and **Algoraz workspace** for backend/AI architecture. The other repositories provide additional Laravel/PHP and Flutter/Dart evidence.
 
-## SEO Keywords
+Repository visibility and project release status can change. Please use the linked repositories as the source for current implementation details and contact me for context on role, scope, and collaboration.
 
-Senior Full-Stack Engineer · Full-Stack Software Engineer · Backend Engineer · Backend & AI Engineer · React Native Engineer · Mobile Application Engineer · AI/LLM Application Development · Python · FastAPI · TypeScript · React Native · Expo · PostgreSQL · Supabase · REST APIs · SaaS Product Engineering · API Engineering · Authentication · Application Security
+---
+
+### Search terms
+
+Senior Full-Stack Engineer · Full-Stack & AI Engineer · Backend & AI Engineer · React Native Engineer · Expo Developer · Mobile Application Engineer · Python Backend Engineer · FastAPI Engineer · TypeScript Engineer · SaaS Product Engineer · AI/LLM Application Development · REST API Engineering · PostgreSQL · Supabase · Authentication · Application Security
