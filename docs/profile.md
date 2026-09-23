@@ -1,6 +1,6 @@
 # Professional Profile Source of Truth
 
-**Phase:** C — Projects, Portfolio & Credibility (building on Phases A–B)
+**Phase:** E — Final Conversion & Consistency Audit (completed through Phases A–E)
 **Status:** Draft for manual profile review
 **Last updated:** 2026-09-23
 **Canonical file:** `docs/profile.md`
@@ -832,3 +832,248 @@ Project source changes; project README rewrites; repository descriptions/topics;
 **Validation planned:** Confirm every project entry contains the required fields or explicit `Not verified`/`[VERIFY]` markers, validate repository links, run `git diff --check`, and review the final diff before publishing.
 
 **Recommended next phase:** **Phase D — GitHub Profile & Repository SEO.**
+
+
+## 13. GitHub Profile — Phase D Strategy
+
+The GitHub profile should function as a readable technical portfolio, not as a résumé archive. The actual profile README was rewritten during Phase D using the exact positioning and evidence boundaries in this document.
+
+### Recommended GitHub headline
+
+**Senior Full-Stack & AI Engineer building web, mobile, SaaS, backend, and AI-powered products.**
+
+### Recommended GitHub bio
+
+**Senior Full-Stack & AI Engineer | React Native, Expo, TypeScript, Python, FastAPI, PostgreSQL, Supabase, AI/LLM applications, and SaaS product engineering.**
+
+If GitHub imposes a shorter bio limit, use:
+
+**Full-Stack & AI Engineer building React Native, backend, SaaS, and AI-powered products.**
+
+### Profile README opening
+
+The approved opening is the current `README.md` introduction:
+
+> I build web, mobile, SaaS, backend, and AI-powered products across architecture, implementation, API integration, data workflows, authentication, and deployment-focused delivery.
+
+It is followed by the three-position specialization themes: full-stack product engineering; backend/API engineering; AI/LLM application integration; React Native/Expo mobile development; SaaS/product engineering; database/application architecture; and security-conscious application architecture.
+
+### Profile README structure
+
+The public README now uses this order:
+
+1. Name and primary title.
+2. One-paragraph positioning statement.
+3. Specialization themes.
+4. Evidence boundary.
+5. Featured projects with repository links and cautious descriptions.
+6. Technology focus grouped by application/mobile, backend/data, AI/product integration, and architecture/delivery.
+7. How I Work.
+8. Contact and Collaboration.
+9. Repository Access Note.
+10. Canonical source-of-truth link.
+11. Natural SEO keyword line.
+
+This structure gives recruiters a quick answer to who the engineer is, what they build, which repositories demonstrate it, and how to contact or collaborate.
+
+### Featured project strategy
+
+The README features projects in this order:
+
+1. **GenixAI** — strongest combined mobile, backend, creator-product, AI, and integration narrative.
+2. **Attendo** — strongest security-conscious mobile, database, attendance, and verification narrative.
+3. **Algoraz workspace** — backend/AI/surveillance architecture evidence with explicit product-boundary caveat.
+4. **LinkorAI** — separate Laravel/PHP product-platform evidence.
+5. **EnatGPT** — additional Flutter/Dart AI application evidence with release-status caveat.
+
+DineIn, Neba/ISS, and VaultX are not featured publicly in the README because their attributable repositories were unavailable during Phase C. They remain in `docs/profile.md` as verification-gated entries.
+
+### Verified links and contact paths
+
+- GitHub profile: `https://github.com/abrishwo` — `[VERIFY PROFILE URL/USERNAME CONSISTENCY]` because the profile repository is `abrehamshiferaw` while legacy links use `abrishwo`.
+- Email: `mailto:abrishwon9@gmail.com` — retained from the existing public README; profile owner should confirm it remains intentionally public.
+- LinkedIn: `https://www.linkedin.com/in/abrishwon` — retained from the existing public README; current availability should be checked manually.
+- Portfolio: `https://abreham.enatsoft.com` — linked with `[VERIFY CURRENT AVAILABILITY]` because it was not independently validated in this phase.
+- Project repositories: GenixAI, Attendo, `algoraz-workspace`, LinkorAI, EnatGPT — repository metadata and revisions were inspected; access visibility must be checked before recruiter sharing.
+- EnatGPT Play Store URL: `https://play.google.com/store/apps/details?id=com.enat.gpt` — returns successfully, but listing ownership/current availability requires manual confirmation.
+
+### Claims intentionally omitted from the README
+
+The README intentionally omits user counts, revenue, downloads, ratings, performance percentages, concurrent-order figures, transaction values, satisfaction rates, client names, employment outcomes, visa/legal eligibility, sponsorship eligibility, guaranteed availability, guaranteed rankings, production readiness, and unverified certifications. It also omits broad legacy technologies that were not supported by current Phase B evidence, including Blockchain/Web3, IoT, Angular, Vue, Spring Boot, Swift, Kotlin, Java, C/C++, GraphQL, MongoDB, and cloud-provider expertise claims.
+
+## 14. GitHub Repository Optimization Strategy
+
+These are recommendations for repository metadata and project README work. Phase D did not change repository descriptions, topics, pins, visibility, archiving, access, or security settings.
+
+| Repository | Recommended description | Recommended topics | README structure | Screenshot/demo recommendation | Portfolio positioning | Pin recommendation | Archive/deprioritize |
+|---|---|---|---|---|---|---|---|
+| `abrehamshiferaw` | `Senior Full-Stack & AI Engineer building web, mobile, SaaS, backend, and AI-powered products.` | `portfolio`, `full-stack`, `ai-engineering`, `react-native`, `backend`, `saas` | Profile opening; specialties; featured projects; stack; contact; source of truth | Keep the concise profile README; do not add unverified metrics or decorative stats | Canonical personal-brand profile | Keep as profile repository | No |
+| `genixai` | `AI-enabled creator product with Expo/React Native, TypeScript, Python backend services, and YouTube-oriented workflows.` | `ai-application`, `react-native`, `expo`, `typescript`, `python`, `youtube-api`, `creator-tools` | Problem; product scope; architecture; implemented features; setup; environment variables; screenshots; known verification gaps | Use existing repository screenshots only after confirming they contain no sensitive data; add a verified demo only if available | Main flagship for AI + mobile + product engineering | Recommend pinning if visibility/access is suitable | No; keep active but verify README before Phase D repository work |
+| `attendo` | `Corporate attendance and security platform built with Expo/React Native, TypeScript, Supabase, and PostgreSQL-oriented security workflows.` | `react-native`, `expo`, `typescript`, `supabase`, `postgresql`, `attendance`, `application-security` | Problem; roles/workflows; architecture; database/security model; implemented modules; setup; tests; verification limits | Use sanitized UI screenshots only after confirming no employee data or secrets; no invented demo | Main flagship for secure mobile/data architecture | Recommend pinning if visibility/access is suitable | No |
+| `algoraz-workspace` | `AI/surveillance-oriented workspace with React Native/Expo client, Python backend, API/permissions modules, and edge processing.` | `python`, `fastapi`, `react-native`, `expo`, `postgresql`, `redis`, `computer-vision`, `webrtc` | Clarify workspace/product boundary; architecture; implemented modules; setup; tests; planned items; security notes | Use architecture diagrams or sanitized UI captures only after verification | Backend & AI evidence; do not call it a single finished commercial product without proof | Consider pinning for Backend & AI CV if access is suitable | No; deprioritize until project naming is clarified |
+| `linkorai` | `Laravel/PHP product platform with modular API/auth, branding, SEO, queue/cache, and AI/image-provider integrations.` | `laravel`, `php`, `api`, `vue`, `vite`, `seo`, `ai-integration`, `product-platform` | Product purpose; architecture; modules; implemented integrations; setup; environment; screenshots; deployment status | Use public branding assets or sanitized UI captures; verify live demo before adding | Separate web/product-platform evidence | Recommend pinning only if role and product relationship are confirmed | No |
+| `enatgpt` | `Flutter/Dart AI assistant project with chat, AI-service, image-search, and text-to-speech workflows.` | `flutter`, `dart`, `ai-assistant`, `mobile-app`, `openai`, `text-to-speech` | Product scope; implemented mobile flows; integrations; setup; release links; credential hygiene; verification notes | Use app screenshots only after removing secrets and confirming release ownership | Additional mobile/AI evidence | Pin only if the profile owner confirms role and release status | No |
+| `algorazplc` | `[VERIFY] React/Vite/Supabase-oriented web project with portfolio, blog, and SEO documentation.` | `react`, `vite`, `supabase`, `typescript`, `seo`, `web-app` | Product purpose; implemented features; setup; deployment status; known TODOs | No demo recommendation until product identity and role are confirmed | Deprioritized supporting repository | Do not pin yet | Do not archive automatically; deprioritize |
+| `DineIn`, `Neba/ISS`, `VaultX` | `[VERIFY — no attributable repository inspected]` | Do not add topics until repositories are identified | Do not create or rewrite a README from memory | No screenshots or demos until evidence is supplied | Verification queue only | Do not pin | No destructive action; keep off the portfolio narrative |
+
+### Internal-link plan
+
+- The profile README links to each selected repository using the repository's canonical GitHub URL.
+- Each flagship repository README should link back to `https://github.com/abrehamshiferaw/abrehamshiferaw` only after its description and access status are reviewed.
+- Each important repository should link to the next relevant project only when the product relationship is real and documented; do not create artificial cross-links between LinkorAI, Hirevo, and the surveillance workspace.
+- `docs/profile.md` remains the canonical content plan but is not presented as proof of a public deployment or employment claim.
+- Contact links should point to one consistent email and LinkedIn identity after the profile owner confirms the URLs.
+
+## 15. Personal SEO Strategy
+
+### Primary keywords
+
+Senior Full-Stack Engineer; Full-Stack Software Engineer; Senior Full-Stack & AI Engineer; Backend & AI Engineer; React Native Engineer; Mobile Application Engineer; AI/LLM Application Development; SaaS Product Engineering; API Engineering.
+
+### Secondary keywords
+
+React Native; Expo; TypeScript; JavaScript; Python; FastAPI; REST APIs; PostgreSQL; SQL; Supabase; SQLAlchemy; Redis; authentication; authorization; permissions; application security; computer vision; Firebase; Docker; mobile product development; backend systems.
+
+### Long-tail keywords
+
+- Senior Full-Stack & AI Engineer building React Native and TypeScript products
+- Python and FastAPI backend engineer for API-driven SaaS applications
+- React Native and Expo engineer for mobile products with secure backend integrations
+- Backend and AI engineer integrating practical LLM features into web and mobile products
+- PostgreSQL and Supabase engineer for secure database-backed applications
+- Full-stack product engineer connecting mobile interfaces, APIs, authentication, and data workflows
+
+### Search-intent phrases
+
+- `hire senior full-stack AI engineer`
+- `React Native Expo mobile engineer`
+- `Python FastAPI backend engineer`
+- `backend engineer AI application integration`
+- `TypeScript SaaS product engineer`
+- `secure Supabase PostgreSQL application developer`
+- `API and mobile product engineering`
+- `AI-powered application development portfolio`
+
+### Name and brand variations
+
+Use consistently and do not introduce additional aliases:
+
+- Abreham Wondimu Shiferaw
+- Abreham Shiferaw
+- GitHub handle: `abrishwo` `[VERIFY AGAINST PROFILE URL]`
+- Repository owner: `abrehamshiferaw`
+
+## 16. Cross-Platform Consistency Matrix
+
+| Surface | Approved identity/title | Approved specialties | Project naming/order | Contact/link status | Action |
+|---|---|---|---|---|---|
+| Afriwork Main CV | Senior Full-Stack & AI Engineer | Full-stack, backend/API, AI/LLM, React Native/mobile, SaaS | GenixAI; Attendo; workspace/LinkorAI; EnatGPT after manual review | Exact fields/limits `[VERIFY]` | Copy Phase A/B/C values manually after form review |
+| Afriwork Backend & AI CV | Backend & AI Engineer | Python/FastAPI, APIs, PostgreSQL/SQL, Redis, auth/security, AI/ML | GenixAI; Attendo; workspace; LinkorAI | Exact fields/limits `[VERIFY]` | Use Backend & AI ordering from Phase B |
+| Afriwork Mobile CV | Senior React Native / Mobile Engineer | React Native, Expo, TypeScript, mobile architecture, API/auth integration | GenixAI; Attendo; workspace; EnatGPT with release caveat | Exact fields/limits `[VERIFY]` | Use Mobile ordering from Phase B |
+| GitHub profile README | Senior Full-Stack & AI Engineer | Same umbrella identity and evidence-backed themes | GenixAI; Attendo; workspace; LinkorAI; EnatGPT | Email/LinkedIn retained; portfolio availability `[VERIFY]` | README updated in Phase D |
+| LinkedIn | `[VERIFY CURRENT PROFILE CONTENT]` | Should use the same title and specialties | Should use the same verified project names | URL retained from legacy README; profile content not audited | Manually align after reviewing current profile |
+| Portfolio website | `[VERIFY CURRENT SITE AND CONTENT]` | Should use the same title, skills, and evidence boundaries | Should use the same project order and status labels | `abreham.enatsoft.com` `[VERIFY]` | Audit manually before linking as live proof |
+| Project READMEs | Project-specific titles, not generic personal titles | Technology/problem combinations from Phase C | Each README should match its project profile | Links and demos `[VERIFY]` per repository | Phase D recommendations only; not rewritten here |
+
+### Consistency rules
+
+Use the same full name/professional variation, umbrella title, specialization order, technology spelling, project names, repository URLs, and verification language across surfaces. Never copy the old README's metrics or visa/legal claims into another platform. When a project is private or access-restricted, say so rather than implying public availability.
+
+## 17. Claims Requiring Verification — Final Register
+
+The following claims must not be published as facts until confirmed by the profile owner or authoritative evidence:
+
+- Exact Afriwork field labels, character limits, selectable categories, Gold status, and multiple-CV behavior.
+- GitHub profile URL/username consistency between `abrishwo` and `abrehamshiferaw`.
+- Current email, LinkedIn, and portfolio URL availability and intentional public status.
+- Employment titles, employers, responsibilities, dates, seniority, leadership, client relationships, and work authorization.
+- User counts, revenue, downloads, ratings, transaction values, performance percentages, response times, concurrency, satisfaction, and business outcomes.
+- Production status, live URLs, deployment ownership, app-store listings, release availability, monetization, subscriptions, IAP, and adoption for every project.
+- Exact role and product relationship among Hirevo, LinkorAI, `algoraz-workspace`, and related work.
+- DineIn, Neba/ISS, and VaultX repository locations and implementation evidence.
+- Proficiency levels for every skill; Phase B deliberately leaves them `[VERIFY LEVEL]`.
+- Current scope of secondary technologies such as Node.js, React web, Firebase, Flutter/Dart, AWS/GCP/Azure, Laravel/PHP, and computer-vision frameworks.
+- Degree dates, GPA, honors, scholarship, certifications, certification status, and spoken-language proficiency.
+- Any claim that implies legal visa eligibility, sponsorship eligibility, guaranteed ranking, guaranteed invitations, guaranteed employment, or guaranteed project outcomes.
+- Any screenshots, demos, architecture diagrams, or links not reviewed for privacy, accuracy, and current availability.
+
+## 18. Phase D changelog
+
+- **2026-09-23:** Replaced the legacy profile README with an evidence-aligned GitHub portfolio narrative.
+- **2026-09-23:** Removed unsupported metrics, legal/visa assertions, superlatives, duplicate sections, unverified employment outcomes, and broad unsupported technology claims from the README.
+- **2026-09-23:** Added the exact GitHub headline, bio, opening, featured-project strategy, contact guidance, SEO strategy, repository recommendations, internal-link plan, and omitted-claims register to `docs/profile.md`.
+- **2026-09-23:** Kept repository descriptions, topics, pins, visibility, archiving, access, and security settings recommendation-only; no external GitHub metadata was changed.
+
+## 19. Phase E — Final Conversion & Consistency Audit
+
+### Audit performed
+
+The final audit reviewed the current `README.md`, the complete `docs/profile.md`, the Phase A–C changelogs and completion reports, `resume_enhanced.md`, repository metadata and revisions recorded in the project portfolio, project links, contact links, Afriwork field mappings, skill classifications, project ordering, and the Phase D GitHub strategy.
+
+### Corrections made
+
+- Standardized the primary identity as **Senior Full-Stack & AI Engineer**.
+- Kept Backend & AI and Senior React Native/Mobile as specializations of one profile.
+- Replaced the legacy README's unsupported user, revenue, download, rating, performance, transaction, and satisfaction claims with evidence-backed project descriptions.
+- Removed visa/legal eligibility and sponsorship assertions from the public README.
+- Removed duplicate stats, duplicated contact sections, duplicated blog sections, and generic closing language from the README.
+- Separated technical languages from spoken languages in the canonical profile.
+- Preserved `[VERIFY]` and `[VERIFY LEVEL]` markers for unresolved claims instead of choosing dates, levels, roles, metrics, links, or production status by guesswork.
+- Kept LinkorAI separate from Hirevo and the surveillance workspace unless the profile owner confirms the relationship.
+- Kept DineIn, Neba/ISS, and VaultX out of the public README because attributable repositories were not available.
+- Retained repository metadata and external profile changes as recommendations only.
+
+### Final canonical structure check
+
+The authoritative profile now contains the required content areas:
+
+1. **Professional Identity** — sections 1 and the Phase A identity.
+2. **Afriwork Main CV** — section 2 and Phase B skill/matching additions.
+3. **Afriwork CV #2 — Backend & AI** — section 3.
+4. **Afriwork CV #3 — Mobile** — section 4.
+5. **Project Portfolio** — section 12 and flagship project profiles.
+6. **GitHub Profile** — section 13 and the updated `README.md`.
+7. **GitHub Repository Optimization** — section 14.
+8. **Personal SEO** — section 15.
+9. **Consistency Matrix** — section 16.
+10. **Claims Requiring Verification** — sections 5, 9, 17, and the final audit register.
+
+The Afriwork mappings retain the exact labels `FIELD`, `RECOMMENDED VALUE`, `CHARACTER LIMIT`, `SEO/MATCHING PURPOSE`, `EVIDENCE`, and `ALTERNATIVE` from Phase A.
+
+### Final copy/paste order
+
+1. Verify identity, email, LinkedIn, GitHub handle, portfolio URL, employment records, education, certifications, and human-language levels.
+2. Copy the Afriwork Main CV title, headline, About Me, field of work, services, career direction, and target categories.
+3. Copy the evidence-backed skills from the Main CV ordering, assigning levels only after manual confirmation.
+4. Create the Backend & AI CV using section 3 and its Phase B ordering.
+5. Create the Mobile CV using section 4 and its Phase B ordering.
+6. Add only project entries whose repository, role, links, and status have been manually verified.
+7. Use the current GitHub README as the public profile narrative after confirming link visibility.
+8. Apply repository descriptions/topics/pin recommendations manually only after project owners, access, privacy, and public-readiness checks.
+9. Align LinkedIn and the portfolio website to the consistency matrix.
+10. Re-run a claims and link review whenever a new metric, project, role, or release link is added.
+
+### Final unresolved items
+
+The final result remains evidence-first but is not a substitute for the profile owner's manual verification. The highest-priority unresolved items are Afriwork form constraints; employment records; proficiency levels; project roles and product boundaries; public visibility; production/release status; live links; store ownership; and all legacy metrics.
+
+## Phase E changelog
+
+- **2026-09-23:** Completed the final conversion and consistency audit across the canonical profile, public README, evidence ledger, project ordering, links, claims, and platform strategy.
+- **2026-09-23:** Confirmed the README and `docs/profile.md` use one coherent professional identity and consistent secondary positioning.
+- **2026-09-23:** Confirmed unsupported claims remain excluded or explicitly marked `[VERIFY]`/`[VERIFY LEVEL]`.
+- **2026-09-23:** Confirmed repository metadata changes, external Afriwork edits, external LinkedIn edits, and portfolio edits were not performed.
+
+## Phase E completion report
+
+**What was inspected:** Phase D/E attachment; current README; complete canonical `docs/profile.md`; Phase A–C records; résumé; GitHub repository metadata; project evidence register; contact and project links; Afriwork mappings; technology orderings; and consistency matrix.
+
+**What changed:** Updated `README.md` with the final GitHub profile narrative and added the GitHub strategy, repository recommendations, personal SEO, cross-platform consistency matrix, final claims register, Phase D changelog, Phase E audit, final copy/paste order, and unresolved-items register to `docs/profile.md`.
+
+**External actions not performed:** No Afriwork form submission, LinkedIn edit, portfolio edit, repository description/topic/pin change, visibility change, archive/delete action, access/security change, or billing action was performed.
+
+**Validation:** The final files were inspected for required headings, unsupported metric patterns, legal/visa assertions, duplicate sections, `[VERIFY]` markers, and link consistency. Markdown whitespace and `git diff --check` are required before commit/publish.
+
+**Files changed:** `README.md` and `docs/profile.md` only.
+
+**Final status:** The repository now contains an evidence-first GitHub profile README and canonical source-of-truth document. Manual verification remains required before transferring unresolved claims to Afriwork or making external profile changes.
