@@ -1,6 +1,6 @@
 # Professional Profile Source of Truth
 
-**Phase:** B — Skills, Experience & Matching (building on Phase A)
+**Phase:** C — Projects, Portfolio & Credibility (building on Phases A–B)
 **Status:** Draft for manual profile review
 **Last updated:** 2026-09-23
 **Canonical file:** `docs/profile.md`
@@ -514,3 +514,321 @@ Phase B updated the canonical profile's skills, ordering, evidence notes, experi
 - [Attendo repository](https://github.com/abrehamshiferaw/attendo) — branch `main`, commit `c717e78`, inspected 2026-09-23.
 - [Algoraz workspace repository](https://github.com/abrehamshiferaw/algoraz-workspace) — branch `secura/dev`, commit `d988c2f`, inspected 2026-09-23.
 - `README.md` and `resume_enhanced.md` in this profile repository — inspected 2026-09-23; legacy claims were retained as verification items rather than promoted automatically.
+
+
+## 12. Phase C — Projects, Portfolio & Credibility
+
+Phase C adds a repository-backed project portfolio without converting README claims, roadmap items, or legacy résumé metrics into verified outcomes. Project status is stated conservatively: **implemented evidence** means source/configuration evidence was found in the inspected branch; **documented evidence** means the capability is described in project documentation; **not verified** means the claim requires a further check before publication.
+
+### Phase C inspection register
+
+| Project/source | Repository and inspected revision | Evidence inspected | Status for portfolio use |
+|---|---|---|---|
+| GenixAI | [github.com/abrehamshiferaw/genixai](https://github.com/abrehamshiferaw/genixai), branch `genixai-pro`, commit `17df3ab`, inspected 2026-09-23 | README, Expo app tree/package/configuration, TypeScript source, mobile screens/stores/services, Python backend modules, API routes, tests, deployment/configuration documentation | **Flagship; sufficient for evidence-based portfolio copy.** |
+| Attendo | [github.com/abrehamshiferaw/attendo](https://github.com/abrehamshiferaw/attendo), branch `main`, commit `c717e78`, inspected 2026-09-23 | README, architecture docs, Expo/React Native source, package configuration, Supabase client/services, migrations, Edge Functions, security/RLS and device/face-verification modules | **Flagship; sufficient for evidence-based portfolio copy.** |
+| Hirevo / LinkorAI workspace | [github.com/abrehamshiferaw/algoraz-workspace](https://github.com/abrehamshiferaw/algoraz-workspace), branch `secura/dev`, commit `d988c2f`, inspected 2026-09-23; related [LinkorAI repository](https://github.com/abrehamshiferaw/linkorai), `main`, commit `a8d1639` | Workspace app/backend/edge-device structure and requirements; related Laravel repository README, Composer/npm configuration, routes, modules, AI/image configuration, branding, SEO and API code | **Use as two related but separate evidence entries; do not merge product identities without verification.** |
+| EnatGPT | [github.com/abrehamshiferaw/enatgpt](https://github.com/abrehamshiferaw/enatgpt), branch `main`, commit `0d75534`, inspected 2026-09-23 | Flutter project configuration, Dart screens/services, ChatGPT/OpenAI-related integration references, speech/TTS/image search references, Google Ads configuration, repository-recorded Play Store URL | **Additional reviewed project; sufficient for cautious implementation copy.** |
+| DineIn | No attributable DineIn repository was found in the available `abrehamshiferaw` repository list or workspace. | Legacy profile/resume description only; no repository or source inspection available in this phase | **Not ranked; all implementation, role, links, and metrics are `[VERIFY]`.** |
+| Neba / ISS | No attributable Neba or ISS repository was found in the available `abrehamshiferaw` repository list or workspace. | User-supplied project description only; no repository or source inspection available in this phase | **Not ranked; all implementation, role, links, and metrics are `[VERIFY]`.** |
+| VaultX | No attributable VaultX repository was found in the available `abrehamshiferaw` repository list or workspace. | User-supplied project description only; no repository or source inspection available in this phase | **Not ranked; describe only as research/development after repository evidence is supplied.** |
+
+### Project ordering by CV
+
+The ordering prioritizes evidence strength and fit with the existing three-position identity, not assumed popularity or unverified business impact.
+
+**Main CV — Senior Full-Stack & AI Engineer**
+
+1. GenixAI — AI-enabled creator/growth product with mobile, backend, API, and content workflows.
+2. Attendo — secure corporate attendance/security platform with mobile, database, and verification workflows.
+3. Hirevo / LinkorAI — separate product-engineering evidence: LinkorAI web platform and related workspace work; keep product boundaries explicit.
+4. EnatGPT — Flutter AI assistant application with documented AI/chat, speech, and image-related features.
+5. DineIn — `[VERIFY]`; include only after attributable project evidence is supplied.
+
+**CV #2 — Backend & AI Engineer**
+
+1. GenixAI — Python backend, API routes, auth/media/jobs/subtitle modules, and AI/product integrations.
+2. Attendo — Supabase/PostgreSQL-oriented security, migrations, RPC/RLS, authentication, device, and verification services.
+3. Hirevo / LinkorAI — Laravel/PHP web backend and AI/branding/API-oriented modules in the related repository; exact product role `[VERIFY]`.
+4. Algoraz workspace surveillance/SaaS work — FastAPI/Python, PostgreSQL-oriented models, Redis, AI/edge-device modules, and permissions.
+5. EnatGPT — AI service integration evidence in a mobile client; backend ownership `[VERIFY]`.
+
+**CV #3 — Senior React Native / Mobile Engineer**
+
+1. GenixAI — Expo/React Native/TypeScript application with mobile screens, stores, services, auth, and creator workflows.
+2. Attendo — Expo/React Native/TypeScript corporate application with attendance, device, location, and verification flows.
+3. Algoraz workspace client — Expo/React Native client with Redux/API integration and surveillance product workflows.
+4. EnatGPT — Flutter/Dart AI assistant application; include only when the profile owner confirms the mobile role and current release status.
+5. Hirevo / LinkorAI — mobile relevance `[VERIFY]`; the reviewed LinkorAI repository is primarily a Laravel web platform.
+
+## Flagship project profiles
+
+### 1. GenixAI
+
+**One-line positioning:** AI-enabled YouTube creator and growth product with Expo/React Native client, backend services, and creator workflow integrations.
+
+**Short description:** The inspected repository contains a mobile/web-oriented Expo application and a Python backend organized around authentication, media, jobs, subtitles, users, AI-related services, and API routes. The product documentation and source references also cover YouTube-oriented workflows, Firebase configuration, web export/deployment configuration, and monetization documentation.
+
+**Problem:** Help creators work with content, creator profiles, media, and growth-oriented workflows in one application. The exact customer problem, target market, and business outcome remain `[VERIFY]`.
+
+**What I built:** Repository evidence supports implementation/configuration of an Expo/React Native client, TypeScript mobile screens/stores/services, authentication and user flows, backend routes/modules, media and job-oriented services, subtitle-related modules, YouTube service/store files, and web export/deployment configuration. Do not claim that every documented integration is production-ready without a separate release audit.
+
+**Technologies verified in source:** React Native; Expo; TypeScript; JavaScript; Python; FastAPI-style backend routers; SQLAlchemy-oriented backend code; Redis-related backend code; Firebase configuration/documentation; YouTube service/API workflow references; API routes; tests; Vercel/static web export configuration.
+
+**My role:** `[VERIFY ROLE AND OWNERSHIP]`. The repository is attributable to the profile owner, but the precise employment, founder, or contractor role is not established by this repository audit.
+
+**Verified achievements/metrics:** **Not verified.** Do not publish the legacy user counts, revenue, download, performance, or growth claims without independent records.
+
+**Repository:** [github.com/abrehamshiferaw/genixai](https://github.com/abrehamshiferaw/genixai)
+
+**Live product link:** Repository documentation references Vercel/web deployment configuration, but a current attributable live URL was not verified in this phase: `[VERIFY LIVE URL]`.
+
+**App Store/Play Store link:** Repository contains mobile build/store documentation and assets, but a current attributable store listing was not verified: `[VERIFY STORE LINK]`.
+
+**Portfolio keywords:** AI application; YouTube creator tools; React Native; Expo; TypeScript; Python backend; API integration; content workflow; subtitles; authentication; Firebase; web export.
+
+**Recruiter-facing description:** Built and organized an AI-enabled creator product across an Expo/React Native client and Python backend, including authenticated user workflows, media/job-oriented services, creator tooling, YouTube-related integrations, and web deployment configuration. Production status and impact metrics require verification.
+
+**Concise Afriwork project copy:** `GenixAI — AI-enabled creator product built with Expo/React Native, TypeScript, Python backend services, API integrations, and creator/content workflows.`
+
+**GitHub portfolio copy:** `GenixAI is an AI-enabled creator product combining an Expo/React Native client, TypeScript application workflows, Python backend modules, media/job services, and YouTube-oriented integrations.`
+
+**Evidence status:** Implemented evidence in repository source/configuration; documented integrations and release status remain partly `[VERIFY]`.
+
+### 2. Attendo
+
+**One-line positioning:** Corporate attendance and security platform built with Expo/React Native, TypeScript, Supabase/PostgreSQL, and verification-oriented workflows.
+
+**Short description:** The inspected repository contains a mobile/web application, Supabase integration, database migrations, Edge Functions, service modules, and security-related documentation for corporate attendance, employee/company administration, devices, locations, reports, and verification workflows.
+
+**Problem:** Support structured corporate attendance and administrative workflows with stronger identity, device, location, and audit controls. The exact customer deployment and business outcome are `[VERIFY]`.
+
+**What I built:** Repository evidence supports authentication, employee/company management services, attendance services, branch/location and geofencing-related modules, corporate-device registration and security flows, face-verification and biometric services/components, reports, Supabase Edge Functions, database migrations, RLS/security-hardening work, and tests. These are implementation findings, not proof of production use.
+
+**Technologies verified in source:** React Native; Expo; TypeScript; Supabase; PostgreSQL-oriented SQL migrations; Row Level Security/security hardening documentation; RPC/database functions; authentication; secure storage; device binding/registration; location/geofencing-related services; face verification/liveness-related modules; biometric/local authentication; Jest tests; web/export and container/deployment configuration.
+
+**My role:** `[VERIFY ROLE AND OWNERSHIP]`. Repository authorship is attributable, but the exact professional role and project engagement are not independently established here.
+
+**Verified achievements/metrics:** **Not verified.** Do not publish employee counts, security outcomes, production-readiness claims, or performance figures without separate evidence.
+
+**Repository:** [github.com/abrehamshiferaw/attendo](https://github.com/abrehamshiferaw/attendo)
+
+**Live product link:** Repository includes deployment configuration/documentation, but a current attributable live URL was not verified: `[VERIFY LIVE URL]`.
+
+**App Store/Play Store link:** No current attributable store listing was verified: `[VERIFY STORE LINK]`.
+
+**Portfolio keywords:** corporate attendance; React Native; Expo; TypeScript; Supabase; PostgreSQL; RLS; RPCs; authentication; device security; geofencing; face verification; biometric workflows; audit/security architecture.
+
+**Recruiter-facing description:** Developed a repository-backed corporate attendance/security platform with Expo/React Native client workflows, Supabase/PostgreSQL data and security layers, authentication, device and location controls, verification services, administrative functionality, and testable database/application modules. Production deployment and outcome claims require verification.
+
+**Concise Afriwork project copy:** `Attendo — corporate attendance and security platform using Expo/React Native, TypeScript, Supabase/PostgreSQL, authentication, device controls, location rules, and verification workflows.`
+
+**GitHub portfolio copy:** `Attendo is a React Native/Expo corporate attendance platform with Supabase/PostgreSQL data services, security policies, device registration, location controls, authentication, and verification-oriented workflows.`
+
+**Evidence status:** Strong implemented source/configuration evidence; production status, role, and metrics remain `[VERIFY]`.
+
+### 3. Hirevo / LinkorAI — related but separate evidence
+
+**One-line positioning:** AI and product-engineering work represented by a React Native/Expo workspace and a separate Laravel/PHP LinkorAI web platform.
+
+**Short description:** The inspected `algoraz-workspace` branch contains a surveillance/SaaS-oriented React Native/Expo client, Python backend, API/Redux modules, PostgreSQL-oriented models, Redis, permissions/authentication, WebRTC, and edge-device/AI modules. The separate `linkorai` repository is a Laravel/PHP application with Vue/Vite-oriented modules, API/auth routes, branding, SEO, queue/cache/websocket configuration, and AI/image-generation configuration. The audit does not establish that every part is one product or that LinkorAI is the same as Hirevo.
+
+**Problem:** The repositories address different product problems: connected AI/surveillance workflows in the workspace and an AI/branding/product web platform in LinkorAI. Exact product naming and relationship are `[VERIFY]`.
+
+**What I built:** Workspace source supports implementation of mobile client, backend/API, authentication/permissions, organization/camera/alert/event/location/subscription-oriented modules, and edge/AI processing structure. LinkorAI source supports a Laravel web application with modular routes, authentication/API configuration, branding assets, SEO metadata, queues/cache/websockets, and AI/image provider configuration. Planned or deployment-only documentation is not treated as completed functionality.
+
+**Technologies verified in source:** React Native; Expo; TypeScript/JavaScript; Redux/API client modules; Python; FastAPI; SQLAlchemy/PostgreSQL-oriented models; Redis; authentication/permissions; WebRTC; Docker; Laravel; PHP; Composer; Vue/Vite-oriented modules; API routes; queue/cache/websocket configuration; SEO metadata; OpenAI/Stability-style configuration references; Supabase-oriented documentation in related workspace material.
+
+**My role:** `[VERIFY ROLE, PRODUCT BOUNDARIES, AND WHETHER HIREVO/LINKORAI ARE THE SAME WORKSTREAM]`.
+
+**Verified achievements/metrics:** **Not verified.** No users, revenue, production deployments, performance, camera counts, or business outcomes are published.
+
+**Repositories:** [algoraz-workspace](https://github.com/abrehamshiferaw/algoraz-workspace) and [linkorai](https://github.com/abrehamshiferaw/linkorai)
+
+**Live product link:** Workspace and LinkorAI deployment references were not independently validated in this phase: `[VERIFY LIVE URL]`.
+
+**App Store/Play Store link:** No attributable store listing was verified for this combined entry: `[VERIFY STORE LINK]`.
+
+**Portfolio keywords:** FastAPI; Python; PostgreSQL; Redis; React Native; Expo; Laravel; PHP; API engineering; authentication; permissions; AI platform; computer vision; WebRTC; SaaS architecture.
+
+**Recruiter-facing description:** Worked across repository-backed AI/product systems spanning mobile clients, Python API services, data and permission layers, edge/AI processing structure, and a separate Laravel/PHP web platform with modular product, branding, SEO, and AI provider configuration. Product boundaries and role require verification.
+
+**Concise Afriwork project copy:** `AI/product engineering across a React Native/Expo and Python API workspace plus a separate Laravel/PHP web platform with API, auth, branding, SEO, and AI-provider integrations.`
+
+**GitHub portfolio copy:** `Related but separate repositories showing mobile/API/AI system work and Laravel/PHP product-platform engineering. Verify product names and role before presenting them as one case study.`
+
+**Evidence status:** Implemented source evidence in both repositories; product relationship, exact role, production status, and outcomes remain `[VERIFY]`.
+
+### 4. EnatGPT
+
+**One-line positioning:** Flutter/Dart AI assistant application with chat, speech/TTS, image-search, and mobile monetization-related integrations documented in source.
+
+**Short description:** The inspected Flutter repository contains Dart application code, chat-related screens/services, OpenAI/ChatGPT SDK references, image-search flows, text-to-speech usage, Google Ads configuration, privacy/terms links, and a repository-recorded Google Play URL.
+
+**Problem:** Provide an AI assistant experience for questions, learning, productivity, and related media interactions. User adoption, satisfaction, language count, and production outcome are `[VERIFY]`.
+
+**What I built:** Source evidence supports Flutter/Dart mobile application structure, chat UI/API integration references, image search using an AI service, text-to-speech behavior, onboarding copy, sharing/storage flows, and ad configuration. Some repository files contain sensitive credential material; it is intentionally excluded from this profile and should be remediated outside this Phase C documentation task.
+
+**Technologies verified in source:** Flutter; Dart; ChatGPT/OpenAI SDK references; HTTP/API service code; text-to-speech; image search; Google Ads configuration; Android/iOS project configuration; local storage/sharing-related packages.
+
+**My role:** `[VERIFY ROLE AND OWNERSHIP]`.
+
+**Verified achievements/metrics:** **Not verified.** Do not publish the legacy user, satisfaction, language, or app-performance figures.
+
+**Repository:** [github.com/abrehamshiferaw/enatgpt](https://github.com/abrehamshiferaw/enatgpt)
+
+**Live product link:** Repository includes public terms/privacy URLs but no independently verified current web product link: `[VERIFY LIVE URL]`.
+
+**App Store/Play Store link:** Repository-recorded Play Store URL: [Google Play listing](https://play.google.com/store/apps/details?id=com.enat.gpt). Current listing ownership, availability, and release status should be checked manually before publication: `[VERIFY]`.
+
+**Portfolio keywords:** Flutter; Dart; AI assistant; ChatGPT/OpenAI integration; text-to-speech; image search; mobile application; Google Ads; Android/iOS.
+
+**Recruiter-facing description:** Built a Flutter/Dart AI assistant application with chat and AI-service integration references, image-search and text-to-speech flows, onboarding, mobile project configuration, and monetization-related ad configuration. Public release and impact claims require verification.
+
+**Concise Afriwork project copy:** `EnatGPT — Flutter/Dart AI assistant application with chat, AI-service integration, image search, text-to-speech, and mobile platform configuration.`
+
+**GitHub portfolio copy:** `EnatGPT is a Flutter/Dart AI assistant project with chat-oriented screens/services, AI API references, image-search and text-to-speech flows, and Android/iOS configuration.`
+
+**Evidence status:** Implemented source evidence for the mobile application and integrations; release status, role, metrics, and credential hygiene require verification.
+
+### 5. DineIn
+
+**One-line positioning:** `[VERIFY] Multi-vendor food-delivery platform with customer, delivery, restaurant, and administration workflows.`
+
+**Short description:** This project is described in the supplied professional context and legacy profile as a multi-vendor food-delivery platform. No attributable repository was available for inspection in Phase C.
+
+**Problem:** `[VERIFY]` Restaurant, delivery, customer, and administrative workflow problem.
+
+**What I built:** `[VERIFY — no repository/source evidence available]`.
+
+**Technologies:** Legacy context lists Laravel, Flutter, Next.js, mobile applications, restaurant panel, delivery application, and CMS/admin functionality; all remain `[VERIFY]` until an attributable source is provided.
+
+**My role:** `[VERIFY]`.
+
+**Verified achievements/metrics:** **Not verified.**
+
+**Repository:** `[VERIFY — no attributable repository located]`.
+
+**Live product / App Store / Play Store links:** `[VERIFY]`.
+
+**Portfolio keywords:** multi-vendor delivery; Laravel; Flutter; Next.js; restaurant management; delivery application; CMS — all `[VERIFY]`.
+
+**Recruiter-facing description:** Do not publish as a completed case study until a repository, dated work record, or attributable live product is supplied.
+
+**Concise Afriwork project copy:** `[VERIFY — omit until evidence is supplied]`.
+
+**GitHub portfolio copy:** `[VERIFY — no repository available]`.
+
+**Evidence status:** User-supplied/legacy description only; unavailable for repository audit.
+
+### 6. Neba / ISS
+
+**One-line positioning:** `[VERIFY] Intelligent surveillance and computer-vision research/project work.`
+
+**Short description:** The supplied professional context describes a Python/YOLO/FastAPI surveillance and computer-vision thesis/project. No attributable Neba or ISS repository was available for inspection in Phase C.
+
+**Problem:** `[VERIFY]` Surveillance, object detection, tracking, face recognition, or person re-identification problem.
+
+**What I built:** `[VERIFY — no repository/source evidence available]`.
+
+**Technologies:** User-supplied context lists Python, YOLO, object detection, tracking, face recognition, person re-identification, FastAPI, PostgreSQL, and possible vector search; every item remains `[VERIFY]` until source evidence is supplied.
+
+**My role:** `[VERIFY]`.
+
+**Verified achievements/metrics:** **Not verified.**
+
+**Repository:** `[VERIFY — no attributable repository located]`.
+
+**Live product / App Store / Play Store links:** `[VERIFY]`.
+
+**Portfolio keywords:** computer vision; object detection; YOLO; tracking; face recognition; person re-identification; FastAPI — all `[VERIFY]`.
+
+**Recruiter-facing description:** Do not publish as a completed production project. If source evidence is supplied, describe it as research/thesis or prototype work unless deployment is independently verified.
+
+**Concise Afriwork project copy:** `[VERIFY — omit until evidence is supplied]`.
+
+**GitHub portfolio copy:** `[VERIFY — no repository available]`.
+
+**Evidence status:** User-supplied project description only; unavailable for repository audit.
+
+### 7. VaultX
+
+**One-line positioning:** `[VERIFY] Security and post-quantum cryptography research/development project.`
+
+**Short description:** The supplied professional context describes Rust/Python cryptography and security-architecture research/development. No attributable VaultX repository was available for inspection in Phase C.
+
+**Problem:** `[VERIFY]` Cryptographic or security-architecture research problem.
+
+**What I built:** `[VERIFY — no repository/source evidence available]`.
+
+**Technologies:** User-supplied context lists Rust, Python, cryptography, and security architecture; all remain `[VERIFY]` until source evidence is supplied.
+
+**My role:** `[VERIFY]`.
+
+**Verified achievements/metrics:** **Not verified.**
+
+**Repository:** `[VERIFY — no attributable repository located]`.
+
+**Live product / App Store / Play Store links:** `[VERIFY]`.
+
+**Portfolio keywords:** Rust; Python; cryptography; post-quantum cryptography; security architecture — all `[VERIFY]`.
+
+**Recruiter-facing description:** If evidence is supplied, present VaultX cautiously as a research/development project. Do not describe it as a production security product, certified cryptographic implementation, or externally validated achievement without documentation.
+
+**Concise Afriwork project copy:** `[VERIFY — omit until evidence is supplied]`.
+
+**GitHub portfolio copy:** `[VERIFY — no repository available]`.
+
+**Evidence status:** User-supplied project description only; unavailable for repository audit.
+
+## Additional reviewed repositories not promoted to flagship status
+
+- **Algoraz PLC / Algoraz.com** — [repository](https://github.com/abrehamshiferaw/algorazplc), branch `main`, commit `10cfd87`, inspected 2026-09-23. The repository contains a React/Vite/Supabase-oriented web project, portfolio/blog/SEO documentation, and a production-readiness TODO list. It was not promoted to a flagship project because the available evidence does not establish the product name, role, completed deployment, or relationship to the profile's named projects. Keep as `[VERIFY / DEPRIORITIZED]` until Phase D or the profile owner confirms its portfolio role.
+
+## Phase C evidence ledger
+
+| Claim or project detail | Evidence location | Evidence type | Publication status |
+|---|---|---|---|
+| GenixAI uses an Expo/React Native client and TypeScript | `genix-pwd/genix-app/package.json`, app/source tree, TypeScript config; commit `17df3ab` | Implemented | Publish with cautious role/status wording |
+| GenixAI has Python backend/API/media/job/auth modules | `backend/requirements.txt`, `backend/app/`, tests, routers; commit `17df3ab` | Implemented | Publish |
+| Attendo contains Supabase/PostgreSQL-oriented migrations, RLS/security, and verification/device services | `supabase/migrations/`, `src/services/`, `docs/architecture.md`, package config; commit `c717e78` | Implemented/documented | Publish with production/metrics caveat |
+| Workspace contains React Native/Expo client, Python backend, Redis/PostgreSQL-oriented services, and edge/AI modules | `app/`, `backend/`, `edge-device/`, requirements/package files; commit `d988c2f` | Implemented | Publish as workspace evidence; verify product name/role |
+| LinkorAI is a Laravel/PHP web application with API/auth, modular, branding, SEO, and AI/image configuration | `composer.json`, `package.json`, `routes/`, `modules/`, `config/`, resources; commit `a8d1639` | Implemented/configured | Publish as separate related repository; verify role/product relationship |
+| EnatGPT contains Flutter/Dart AI/chat/speech/image-related code | `pubspec.yaml`, `lib/` source, commit `0d75534` | Implemented | Publish cautiously; verify role/release |
+| EnatGPT has a Play Store URL in source | `lib/utils/app_keys.dart` | Documented/source-recorded link | Verify listing ownership and availability before copying |
+| DineIn, Neba/ISS, and VaultX repositories | No attributable repository found in available GitHub list/workspace | Unavailable | Do not publish completed-project claims |
+| User counts, revenue, downloads, ratings, performance, and production outcomes | Legacy README/resume only or absent | Unverified | Exclude from public copy |
+
+## Phase C scope boundary
+
+### Included
+
+Repository and source inspection for available flagship and related projects; evidence-backed project positioning; recruiter-facing, Afriwork, and GitHub copy; CV-specific project ordering; links and release-status safeguards; unavailable-project register; and a claim-to-source evidence ledger.
+
+### Not included
+
+Project source changes; project README rewrites; repository descriptions/topics; external Afriwork edits; GitHub profile changes; invented screenshots; unverified metrics; unverified production claims; or automatic publication of links and project roles outside this canonical document.
+
+## Phase C changelog
+
+- **2026-09-23:** Inspected GenixAI (`17df3ab`), Attendo (`c717e78`), `algoraz-workspace` (`d988c2f`), LinkorAI (`a8d1639`), EnatGPT (`0d75534`), and Algoraz PLC (`10cfd87`) repositories and representative source/configuration/documentation.
+- **2026-09-23:** Added evidence-backed portfolio profiles for GenixAI, Attendo, related workspace/LinkorAI work, and EnatGPT.
+- **2026-09-23:** Added conservative entries for DineIn, Neba/ISS, and VaultX because no attributable repositories were available for inspection.
+- **2026-09-23:** Added main, Backend & AI, and Mobile project orderings based on evidence strength and positioning fit.
+- **2026-09-23:** Added project evidence ledger and explicit implemented/documented/planned/prototype/unverified boundaries.
+- **2026-09-23:** Did not modify project repositories, project READMEs, GitHub metadata, external Afriwork, or any source code.
+
+## Phase C completion report
+
+**What was inspected:** Phase C instructions; current Phase A/B `docs/profile.md`; repository status/history; available `abrehamshiferaw` GitHub repository list; GenixAI, Attendo, `algoraz-workspace`, LinkorAI, EnatGPT, and Algoraz PLC repositories; README files; package/configuration files; representative source trees; backend requirements; database migrations; deployment/configuration references; and legacy profile project descriptions.
+
+**What changed:** Added the Phase C project portfolio, CV-specific ordering, project-level Afriwork/GitHub/recruiter copy, link and metric safeguards, unavailable-project register, additional reviewed repository note, evidence ledger, scope boundary, changelog, and completion report to `docs/profile.md`.
+
+**Repositories unavailable:** No attributable repositories for DineIn, Neba/ISS, or VaultX were found in the available GitHub repository list or workspace. Their entries remain verification-gated and are not ranked as completed flagship projects.
+
+**Evidence gaps:** Exact project roles and product boundaries; live deployment status; store listing ownership/current availability; production status; user/revenue/download/performance metrics; DineIn/Neba/ISS/VaultX source repositories; and the relationship between Hirevo, LinkorAI, and the surveillance workspace.
+
+**Files changed:** `docs/profile.md` only.
+
+**Validation planned:** Confirm every project entry contains the required fields or explicit `Not verified`/`[VERIFY]` markers, validate repository links, run `git diff --check`, and review the final diff before publishing.
+
+**Recommended next phase:** **Phase D — GitHub Profile & Repository SEO.**
