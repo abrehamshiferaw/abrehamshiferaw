@@ -80,7 +80,7 @@ I am open to discussing senior full-stack, backend/API, AI application, React Na
 
 - Email: [abrishwon9@gmail.com](mailto:abrishwon9@gmail.com)
 - LinkedIn: [linkedin.com/in/abrishwon](https://www.linkedin.com/in/abrishwon)
-- Portfolio: [abreham.enatsoft.com](https://abreham.enatsoft.com) `[VERIFY CURRENT AVAILABILITY]`
+- Portfolio: [algoraz.com](https://algoraz.com) `[VERIFY CURRENT AVAILABILITY]`
 - Canonical profile and Afriwork copy: [docs/profile.md](docs/profile.md)
 
 ## Repository Access Note
