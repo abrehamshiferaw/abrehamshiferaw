@@ -8,6 +8,7 @@ import { GeezConverterDemo } from './components/GeezConverterDemo';
 import { TelegramMiniAppDemo } from './components/TelegramMiniAppDemo';
 import { TechnicalFocus } from './components/TechnicalFocus';
 import { SponsorSection } from './components/SponsorSection';
+import { CareerDocumentsSection } from './components/CareerDocumentsSection';
 import { TerminalReadme } from './components/TerminalReadme';
 import { Footer } from './components/Footer';
 import { Cpu, Calendar, Hash, Smartphone, Sparkles, Code2 } from 'lucide-react';
@@ -18,6 +19,7 @@ export const App: React.FC = () => {
 
   const toolsSectionRef = useRef<HTMLDivElement>(null);
   const projectsSectionRef = useRef<HTMLDivElement>(null);
+  const docsSectionRef = useRef<HTMLDivElement>(null);
   const skillsSectionRef = useRef<HTMLDivElement>(null);
   const sponsorSectionRef = useRef<HTMLDivElement>(null);
 
@@ -27,6 +29,8 @@ export const App: React.FC = () => {
       projectsSectionRef.current?.scrollIntoView({ behavior: 'smooth' });
     } else if (tab === 'interactive') {
       toolsSectionRef.current?.scrollIntoView({ behavior: 'smooth' });
+    } else if (tab === 'docs') {
+      docsSectionRef.current?.scrollIntoView({ behavior: 'smooth' });
     } else if (tab === 'skills') {
       skillsSectionRef.current?.scrollIntoView({ behavior: 'smooth' });
     } else if (tab === 'sponsor') {
@@ -123,6 +127,11 @@ export const App: React.FC = () => {
         {/* Technical Focus & Competencies */}
         <div ref={skillsSectionRef}>
           <TechnicalFocus />
+        </div>
+
+        {/* Downloadable Career Documents (.docx) */}
+        <div ref={docsSectionRef}>
+          <CareerDocumentsSection />
         </div>
 
         {/* Sponsor Callout Section */}

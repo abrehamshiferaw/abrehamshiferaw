@@ -29,6 +29,7 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
           {[
             { id: 'projects', label: 'Featured Projects', icon: Sparkles },
             { id: 'interactive', label: 'Live Tools', icon: Code2 },
+            { id: 'docs', label: 'CV & Docs', icon: null },
             { id: 'skills', label: 'Technical Stack', icon: null },
             { id: 'sponsor', label: 'Sponsor', icon: Heart },
           ].map((item) => {
