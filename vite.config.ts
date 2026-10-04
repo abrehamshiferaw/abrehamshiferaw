@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: '/abrehamshiferaw/',
+  base: process.env.GITHUB_ACTIONS ? '/abrehamshiferaw/' : './',
   plugins: [react(), tailwindcss()],
   server: {
     port: 3000,
