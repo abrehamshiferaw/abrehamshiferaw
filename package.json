@@ -5,12 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 3000",
-    "build": "tsc && vite build",
+    "build": "node scripts/build_pdf.js && tsc && vite build",
     "preview": "vite preview --host 0.0.0.0 --port 3000"
   },
   "dependencies": {
+    "@types/pdfkit": "^0.17.6",
     "docx": "^9.8.1",
     "lucide-react": "^1.16.0",
+    "pdfkit": "^0.20.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

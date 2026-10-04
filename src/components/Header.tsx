@@ -59,12 +59,12 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
         {/* Social Links & Resume / Sponsor Action */}
         <div className="flex items-center gap-2">
           <a
-            href={`${baseUrl}docs/Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.docx`}
-            download="Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.docx"
+            href={`${baseUrl}docs/Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.pdf`}
+            download="Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.pdf"
             className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-500/10 hover:bg-sky-500/20 text-sky-400 hover:text-sky-300 border border-sky-500/30 text-xs font-semibold transition"
           >
             <FileText className="w-3.5 h-3.5" />
-            <span>Resume</span>
+            <span>Resume (PDF)</span>
           </a>
           <a
             href="https://github.com/abrehamshiferaw"

@@ -42,12 +42,12 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenTools }) =>
             {/* Quick action buttons */}
             <div className="mt-7 flex flex-wrap items-center gap-3">
               <a
-                href={`${baseUrl}docs/Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.docx`}
-                download="Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.docx"
+                href={`${baseUrl}docs/Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.pdf`}
+                download="Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.pdf"
                 className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white font-bold text-sm flex items-center gap-2 transition shadow-lg shadow-sky-500/20 active:scale-95"
               >
                 <FileText className="w-4 h-4" />
-                <span>Download CV</span>
+                <span>Download CV (PDF)</span>
               </a>
 
               <button

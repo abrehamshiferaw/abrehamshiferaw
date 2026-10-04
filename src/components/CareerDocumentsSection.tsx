@@ -1,22 +1,25 @@
-import React, { useState } from 'react';
-import { FileText, Download, ShieldCheck, Eye, X, CheckCircle, ExternalLink, Sparkles, Award } from 'lucide-react';
+import React from 'react';
+import { FileText, Download, ShieldCheck, CheckCircle, ExternalLink, Sparkles, Award } from 'lucide-react';
 
 export const CareerDocumentsSection: React.FC = () => {
-  const [activeModal, setActiveModal] = useState<string | null>(null);
-
   const baseUrl = import.meta.env.BASE_URL.endsWith('/')
     ? import.meta.env.BASE_URL
     : `${import.meta.env.BASE_URL}/`;
+
+  const pdfCvUrl = `${baseUrl}docs/Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.pdf`;
+  const docxCvUrl = `${baseUrl}docs/Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.docx`;
 
   const docs = [
     {
       id: 'cv',
       title: 'Executive Curriculum Vitae (CV)',
       badge: 'Primary Career Document',
-      filename: 'Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.docx',
-      downloadUrl: `${baseUrl}docs/Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.docx`,
+      filenameDocx: 'Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.docx',
+      downloadUrlDocx: docxCvUrl,
+      filenamePdf: 'Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.pdf',
+      downloadUrlPdf: pdfCvUrl,
       summary:
-        'Comprehensive 2-page career profile covering production architectures (Toka SDK, VaultX PQC Gateway, Telebirr, Attendo), postgraduate Computer Vision thesis (ArcFace + YOLOv8 + OSNet), and core technical competencies.',
+        'Comprehensive career profile covering production architectures (Toka SDK, VaultX PQC Gateway, Telebirr, Attendo), postgraduate Computer Vision thesis (ArcFace + YOLOv8 + OSNet), and core technical competencies.',
       tags: ['Senior Full-Stack', 'AI & Vision Pipelines', 'Systems & FinOps', 'Post-Quantum Crypto'],
       highlights: [
         '5+ years building production web platforms, AI SDKs, and edge biometric systems',
@@ -24,13 +27,14 @@ export const CareerDocumentsSection: React.FC = () => {
         'Architect of VaultX (Hybrid NIST ML-KEM-768/Dilithium + ISO-8583 banking gateway)',
         'B.Sc. Honors Thesis in multi-modal identity fusion & real-time person re-identification',
       ],
+      isPrimary: true,
     },
     {
       id: 'dossier',
       title: 'Technical Systems Architecture Dossier',
       badge: 'Engineering Deep-Dive',
-      filename: 'Abreham_Shiferaw_GitHub_Engineering_Dossier.docx',
-      downloadUrl: `${baseUrl}docs/Abreham_Shiferaw_GitHub_Engineering_Dossier.docx`,
+      filenameDocx: 'Abreham_Shiferaw_GitHub_Engineering_Dossier.docx',
+      downloadUrlDocx: `${baseUrl}docs/Abreham_Shiferaw_GitHub_Engineering_Dossier.docx`,
       summary:
         'In-depth architectural review across 11+ repositories covering TypeScript SDKs, Python vision pipelines, Next.js monorepos, and a custom bare-metal Rust microkernel.',
       tags: ['11+ Verified Repos', 'System Design Audits', 'Rust Kernel Primitives', 'Edge AI'],
@@ -39,13 +43,14 @@ export const CareerDocumentsSection: React.FC = () => {
         'Security analysis, cryptographic agility protocols, and HMAC-SHA256 signature flows',
         'Computer vision metric learning benchmarks and real-time edge inference results',
       ],
+      isPrimary: false,
     },
     {
       id: 'cover-letter',
       title: 'Engineering Philosophy & Leadership Statement',
       badge: 'Executive Narrative',
-      filename: 'Abreham_Shiferaw_Modular_Executive_Cover_Letter.docx',
-      downloadUrl: `${baseUrl}docs/Abreham_Shiferaw_Modular_Executive_Cover_Letter.docx`,
+      filenameDocx: 'Abreham_Shiferaw_Modular_Executive_Cover_Letter.docx',
+      downloadUrlDocx: `${baseUrl}docs/Abreham_Shiferaw_Modular_Executive_Cover_Letter.docx`,
       summary:
         'Statement of engineering philosophy, low-level systems discipline, FinOps cost control methodologies, and team leadership profile.',
       tags: ['Engineering Philosophy', 'Problem Solving', 'FinOps', 'Scalability'],
@@ -54,6 +59,7 @@ export const CareerDocumentsSection: React.FC = () => {
         'Track record translating abstract research into high-availability cloud microservices',
         'Modular foundation structured for leadership and senior individual contributor roles',
       ],
+      isPrimary: false,
     },
   ];
 
@@ -75,7 +81,7 @@ export const CareerDocumentsSection: React.FC = () => {
             </h2>
           </div>
           <p className="text-xs sm:text-sm text-neutral-400 max-w-lg leading-relaxed">
-            Direct access to official resumes, architectural dossiers, and engineering credentials. Tailored for engineering leadership, founders, and hiring teams.
+            Direct access to official resumes, architectural dossiers, and engineering credentials in high-impact PDF and editable formats.
           </p>
         </div>
 
@@ -84,7 +90,11 @@ export const CareerDocumentsSection: React.FC = () => {
           {docs.map((doc) => (
             <div
               key={doc.id}
-              className="p-6 rounded-2xl bg-neutral-900/80 border border-neutral-800 hover:border-neutral-700 transition flex flex-col justify-between shadow-lg hover:shadow-xl group"
+              className={`p-6 rounded-2xl bg-neutral-900/80 border transition flex flex-col justify-between shadow-lg hover:shadow-xl group ${
+                doc.isPrimary
+                  ? 'border-sky-500/40 ring-1 ring-sky-500/20'
+                  : 'border-neutral-800 hover:border-neutral-700'
+              }`}
             >
               <div>
                 <div className="flex items-center justify-between gap-2 mb-3">
@@ -126,15 +136,36 @@ export const CareerDocumentsSection: React.FC = () => {
               </div>
 
               {/* Action Buttons */}
-              <div className="pt-4 border-t border-neutral-800 flex items-center gap-2">
-                <a
-                  href={doc.downloadUrl}
-                  download={doc.filename}
-                  className="flex-1 py-2.5 px-3 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-semibold text-xs flex items-center justify-center gap-1.5 transition active:scale-95 shadow-md shadow-sky-600/20"
-                >
-                  <Download className="w-3.5 h-3.5" />
-                  <span>Download Document</span>
-                </a>
+              <div className="pt-4 border-t border-neutral-800 space-y-2">
+                {doc.isPrimary ? (
+                  <>
+                    <a
+                      href={doc.downloadUrlPdf}
+                      download={doc.filenamePdf}
+                      className="w-full py-2.5 px-3 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition active:scale-95 shadow-md shadow-sky-500/20"
+                    >
+                      <Download className="w-3.5 h-3.5" />
+                      <span>Download PDF (Creative Winner Layout)</span>
+                    </a>
+                    <a
+                      href={doc.downloadUrlDocx}
+                      download={doc.filenameDocx}
+                      className="w-full py-2 px-3 rounded-xl bg-neutral-800 hover:bg-neutral-700 text-neutral-200 font-medium text-xs flex items-center justify-center gap-1.5 transition active:scale-95 border border-neutral-700"
+                    >
+                      <FileText className="w-3.5 h-3.5 text-sky-400" />
+                      <span>Download Word (.docx)</span>
+                    </a>
+                  </>
+                ) : (
+                  <a
+                    href={doc.downloadUrlDocx}
+                    download={doc.filenameDocx}
+                    className="w-full py-2.5 px-3 rounded-xl bg-neutral-800 hover:bg-neutral-700 text-neutral-200 font-semibold text-xs flex items-center justify-center gap-1.5 transition active:scale-95 border border-neutral-700"
+                  >
+                    <Download className="w-3.5 h-3.5 text-sky-400" />
+                    <span>Download Word (.docx)</span>
+                  </a>
+                )}
               </div>
             </div>
           ))}
