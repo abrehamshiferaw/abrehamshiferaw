@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUpRight, Sparkles, Terminal, Code2, Heart, ShieldCheck } from 'lucide-react';
+import { ArrowUpRight, Sparkles, Terminal, Code2, Heart, ShieldCheck, FileText } from 'lucide-react';
 import { GithubIcon } from './Icons';
 
 interface HeroProps {
@@ -8,6 +8,9 @@ interface HeroProps {
 }
 
 export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenTools }) => {
+  const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+    ? import.meta.env.BASE_URL
+    : `${import.meta.env.BASE_URL}/`;
   return (
     <section className="relative pt-12 pb-14 overflow-hidden border-b border-neutral-900">
       {/* Background subtle glow */}
@@ -38,6 +41,15 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenTools }) =>
 
             {/* Quick action buttons */}
             <div className="mt-7 flex flex-wrap items-center gap-3">
+              <a
+                href={`${baseUrl}docs/Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.docx`}
+                download="Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.docx"
+                className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white font-bold text-sm flex items-center gap-2 transition shadow-lg shadow-sky-500/20 active:scale-95"
+              >
+                <FileText className="w-4 h-4" />
+                <span>Download CV</span>
+              </a>
+
               <button
                 onClick={onExploreProjects}
                 className="px-5 py-2.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-neutral-950 font-bold text-sm flex items-center gap-2 transition shadow-lg shadow-amber-400/20 active:scale-95"

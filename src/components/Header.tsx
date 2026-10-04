@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Heart, Sparkles, Code2 } from 'lucide-react';
+import { Mail, Heart, Sparkles, Code2, FileText } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './Icons';
 
 interface HeaderProps {
@@ -8,6 +8,10 @@ interface HeaderProps {
 }
 
 export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
+  const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+    ? import.meta.env.BASE_URL
+    : `${import.meta.env.BASE_URL}/`;
+
   return (
     <header className="sticky top-0 z-50 backdrop-blur-md bg-neutral-950/80 border-b border-neutral-800/80">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
@@ -20,7 +24,7 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
               Abreham Shiferaw
               <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse" title="Available for projects"></span>
             </a>
-            <p className="text-xs text-neutral-400 hidden sm:block">Full-Stack & AI Engineer</p>
+            <p className="text-xs text-neutral-400 hidden sm:block">Senior Full-Stack &amp; AI Engineer</p>
           </div>
         </div>
 
@@ -29,7 +33,7 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
           {[
             { id: 'projects', label: 'Featured Projects', icon: Sparkles },
             { id: 'interactive', label: 'Live Tools', icon: Code2 },
-            { id: 'docs', label: 'CV & Docs', icon: null },
+            { id: 'docs', label: 'Resume & Credentials', icon: FileText },
             { id: 'skills', label: 'Technical Stack', icon: null },
             { id: 'sponsor', label: 'Sponsor', icon: Heart },
           ].map((item) => {
@@ -52,8 +56,16 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
           })}
         </nav>
 
-        {/* Social Links & Sponsor Action */}
+        {/* Social Links & Resume / Sponsor Action */}
         <div className="flex items-center gap-2">
+          <a
+            href={`${baseUrl}docs/Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.docx`}
+            download="Abreham_Shiferaw_Senior_AI_FullStack_Engineer_CV.docx"
+            className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-500/10 hover:bg-sky-500/20 text-sky-400 hover:text-sky-300 border border-sky-500/30 text-xs font-semibold transition"
+          >
+            <FileText className="w-3.5 h-3.5" />
+            <span>Resume</span>
+          </a>
           <a
             href="https://github.com/abrehamshiferaw"
             target="_blank"
@@ -86,7 +98,7 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
             className="ml-1 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-pink-500/10 hover:bg-pink-500/20 text-pink-400 hover:text-pink-300 border border-pink-500/30 text-xs font-semibold transition"
           >
             <Heart className="w-3.5 h-3.5 fill-pink-500/50" />
-            <span>Sponsor</span>
+            <span className="hidden sm:inline">Sponsor</span>
           </a>
         </div>
       </div>
