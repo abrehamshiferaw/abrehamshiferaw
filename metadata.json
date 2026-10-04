@@ -1,0 +1,8 @@
+{
+  "name": "Abreham Shiferaw — Full-Stack & AI Engineer",
+  "description": "Portfolio and interactive open-source showcase for Abreham Shiferaw: Toka AI cost optimizer, Ethiopian Calendar, Ge'ez numerals converter, and Telegram Mini Apps.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
