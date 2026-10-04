@@ -12,7 +12,7 @@ I build practical **AI developer tools, TypeScript/JavaScript libraries, mobile 
 
 ### [Telegram Mini App](https://github.com/abrehamshiferaw/telegram-mini-app)
 
-A Next.js-based **Telegram Mini App** foundation for building fast, mobile-friendly Telegram Web Apps and bot-connected product experiences.
+A Next.js based **Telegram Mini App** foundation for building fast, mobile-friendly Telegram Web Apps and bot-connected product experiences.
 
 [![Sponsor Telegram Mini App](https://img.shields.io/badge/Sponsor%20Telegram%20Mini%20App-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/abrehamshiferaw)
 
